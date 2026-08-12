@@ -5,11 +5,13 @@
     <uses-permission
         android:name="android.permission.INTERNET" />
 
+
     <application
             android:usesCleartextTraffic="true"
             android:allowBackup="true"
             android:label="My Application"
-            android:supportsRtl="true">
+            android:supportsRtl="true"
+            android:name="MyApplication">
 
         <activity
                 android:name=".MainActivity"
